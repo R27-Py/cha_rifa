@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;  
+    background-image: url(safari.png);
+    background-color: #f8b0ed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fffbf4;
+    background-color: #ff8eff;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header{
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+section{
+    display: block;
+    padding: 5vh;
+    margin: 10px;
+}
+
+section label{
+    padding: 10px;
+    margin: -3px;
+    font-family: 'lato',sans-serif;
+}
+
+section input[type="text"]{
+    height:45px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    text-indent: 12px;
+    margin: 5px;
+    outline-color: lightskyblue;
+    font-family: 'lato',sans-serif;
+}
+section h2{
+    text-align: center;
+    background-color: #c166fd;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.botao{
+    text-align:center;
+    padding: 25px;
+}
+
+div button:hover,button:focus {
+    background: #e85bbb;
+}
+
+.botao button{
+    color: white;
+    background: #c166fd;
+    border: 1px;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    font-family:'lato' , sans-serif;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #7e1923;
+}
